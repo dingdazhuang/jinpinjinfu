@@ -1,0 +1,30 @@
+.case {
+  width: 100%;
+  padding: 40px 0;
+  background-color: #f4f4f4;
+  .title {
+    p {
+      font-size: 30px;
+      font-weight: bold;
+      color: #000;
+    }
+  }
+  .free {
+    a {
+      display: block;
+      width: 150px;
+      height: 30px;
+      line-height: 30px;
+      margin: 20px auto;
+      border: 1px solid #fbcc00;
+      border-radius: 6px;
+      color: #fbcc00;
+      transition: all .3s;
+      
+      &:hover {
+        color: #000;
+        background: #fbcc00;
+      }
+    }
+  }
+}

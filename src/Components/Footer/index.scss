@@ -1,0 +1,93 @@
+.footer {
+  width: 100%;
+  padding: 40px 0;
+  background-color: #080808;
+  ul {
+    float: left;
+    li {
+      height: 24px;
+      &:first-child {
+        color: #fff;
+      }
+      a {
+        font-size: 14px;
+        color: #9b9b9b;
+        &:hover {
+          color: #fff;
+          text-decoration: underline;
+        }
+      }
+
+    }
+  }
+  .fangan {
+    margin-right: 80px;
+    li {
+      text-align: left;
+    }
+  }
+  .help {
+    margin-right: 80px;
+    li {
+      text-align: center;
+    }
+  }
+  .contact {
+    margin-right: 60px;
+    li {
+      color: #9b9b9b;
+      text-align: left;
+      &:not(:first-child) {
+        font-size: 14px;
+      }
+    }
+  }
+  .part1 {
+    border-bottom: 1px solid #5b5b5b;
+    padding: 40px 0;
+  }
+  .part2 {
+    border-bottom: 1px solid #5b5b5b;
+    padding: 40px 0;
+    em {
+      color: #fff;
+      text-align: left;
+      display: block;
+      margin-bottom: 10px;
+      font-style: normal;
+    }
+    ul li {
+      float: left;
+      width: 200px;
+      text-align: left;
+    }
+  }
+  .part3 {
+    padding: 40px 0;
+    border-bottom: 1px solid #5b5b5b;
+    >img {
+      float: left;
+    }
+    .box {
+      float: left;
+    }
+    ul {
+      li {
+        float: left;
+        width: 150px;
+        text-align: left;
+        a {
+          font-size: 12px;
+        }
+      }
+    }
+
+  }
+  .part4 {
+    padding: 10px 0;
+    div {
+      color: #5b5b5b;
+      font-size: 12px;
+    }
+  }
+}

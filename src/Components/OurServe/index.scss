@@ -1,0 +1,25 @@
+.our {
+  width: 100%;
+  padding: 40px 0;
+  background-color: #f4f4f4;
+  .title {
+    p {
+      font-size: 30px;
+      font-weight: bold;
+      color: #000;
+    }
+  }
+  .chose {
+    margin-top: 60px;
+    .col {
+      float: left;
+      width: 240px;
+      position: relative;
+      margin-bottom: 40px;
+      &:hover {
+        top: -5px;
+        transition: top .4s ease-in-out;
+      }
+    }
+  }
+}
